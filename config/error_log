@@ -1,0 +1,8 @@
+[10-Jan-2025 21:32:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/quizmaniajain/public_html/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/quizmaniajain/public_html/config/database.php on line 18
+[14-Feb-2025 15:25:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/quizmaniajain/public_html/config/app.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/quizmaniajain/public_html/config/app.php on line 19

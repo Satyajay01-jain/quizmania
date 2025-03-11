@@ -1,0 +1,26 @@
+/* Webpixels CSS */
+/* Utility and component-centric Design System based on Bootstrap for fast, responsive UI development */
+/* URL: https://github.com/webpixels/css */
+
+@import url(https://unpkg.com/@webpixels/css@1.1.5/dist/index.css);
+
+/* Bootstrap Icons */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.4.0/font/bootstrap-icons.min.css");
+
+
+td{
+    max-width: 200px !important;
+    overflow-x: auto;
+    /*-ms-overflow-style: none;  */
+    /*scrollbar-width: none; */
+}
+td::-webkit-scrollbar {
+    /*display: none;*/
+}
+
+@media (min-width: 500px){
+    
+td{
+    max-width: 400px !important;
+}
+}
